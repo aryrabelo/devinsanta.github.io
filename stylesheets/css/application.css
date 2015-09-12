@@ -36,7 +36,9 @@
       margin: 15px; }
       #header .social li img {
         width: 30px; }
-  #header button {
+  #header .more a {
+    text-decoration: none; }
+  #header .more button {
     width: 150px;
     height: 30px;
     font-size: 18px;
