@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,300);
+#header {
+  width: 960px; }
+
+.main {
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  display: block; }
+  .main:after, .main:before {
+    content: "";
+    display: block;
+    clear: both; }
+
+#header {
+  width: 100%;
+  height: 495px;
+  background-image: url("../../img/header_img.jpg");
+  background-size: cover;
+  background-position: center;
+  display: inline-block; }
+  #header h1 {
+    width: 240px;
+    height: 70px;
+    margin: 165px auto 0 auto; }
+    #header h1 img {
+      width: 240px; }
+  #header .social {
+    width: 180px;
+    height: 50px;
+    margin: 10px auto 0 auto;
+    display: block; }
+    #header .social li {
+      display: inline-block;
+      float: left;
+      margin: 15px; }
+      #header .social li img {
+        width: 30px; }
+  #header button {
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    margin: 15px auto 0 auto;
+    display: block;
+    background: none;
+    border: 2px solid #000;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    clear: both; }
+
+/* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
+html {
+  color: #000;
+  background: #FFF; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+input, textarea, select {
+  *font-size: 100%; }
+
+legend {
+  color: #000; }
+
+#yui3-css-stamp.cssreset {
+  display: none; }
+
+/*# sourceMappingURL=application.css.map */
