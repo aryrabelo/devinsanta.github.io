@@ -41,19 +41,23 @@
       }
     }
   }
-
-  button {
-    width: 150px;
-    height: 30px;
-    font-size: 18px;
-    margin: 15px auto 0 auto;
-    display: block;
-    background: none;
-    border: 2px solid #000;
-    border-radius: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    cursor: pointer;
-    clear: both;
+  .more {
+    a {
+      text-decoration: none;
+    }
+    button {
+      width: 150px;
+      height: 30px;
+      font-size: 18px;
+      margin: 15px auto 0 auto;
+      display: block;
+      background: none;
+      border: 2px solid #000;
+      border-radius: 15px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      cursor: pointer;
+      clear: both;
+    }
   }
 }
