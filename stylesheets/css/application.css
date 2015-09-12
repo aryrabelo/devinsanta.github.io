@@ -2,6 +2,9 @@
 #header {
   width: 960px; }
 
+body {
+  background-color: #ecf0f1; }
+
 .main {
   width: 100%;
   min-width: 100%;
@@ -49,6 +52,45 @@
     font-weight: 400;
     cursor: pointer;
     clear: both; }
+
+#nextmeetup {
+  color: #1a1a1a;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  margin: 15px 0 15px 0; }
+
+.upcoming-meet .m-header {
+  background-color: #5aa02c;
+  width: 75%;
+  margin: 0 auto;
+  padding: 3px 0 3px 0;
+  border-radius: 25px;
+  text-align: center;
+  font-family: 'Open sans', sans-serif; }
+  .upcoming-meet .m-header h3 {
+    font-size: 1.7em;
+    font-weight: 400;
+    color: #ecf0f1;
+    padding-bottom: 1px; }
+  .upcoming-meet .m-header span {
+    font-size: 1em;
+    font-weight: 300; }
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #b3b3b3;
+  width: 100%;
+  min-height: 30px;
+  text-align: center;
+  padding-top: 10px; }
+  footer span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+    color: #1a1a1a; }
 
 /* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
 html {
