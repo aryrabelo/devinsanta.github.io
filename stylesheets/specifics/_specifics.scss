@@ -1,3 +1,5 @@
+body{background-color: #ecf0f1}
+
 .main {
   width: 100%;
   min-width: 100%;
@@ -19,18 +21,19 @@
   background-position: center;
   display: inline-block;
   h1 {
-    width: 240px;
+    width: 300px;
     height: 70px;
     margin: 165px auto 0 auto;
     img {
-      width: 240px;
+      width: 100%;
+      margin-left: 10px;
     }
   }
 
   .social {
     width: 180px;
     height: 50px;
-    margin: 10px auto 0 auto;
+    margin: 20px auto 0 auto;
     display: block;
     li {
       display: inline-block;
@@ -59,5 +62,64 @@
       cursor: pointer;
       clear: both;
     }
+  }
+}
+
+//container
+#nextmeetup{
+  color: #1a1a1a;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  margin: 25px 0 25px 0; 
+}
+
+.upcoming-meet{
+    .m-header{
+    background-color: #5aa02c;
+    width: 75%;
+    margin: 0 auto;
+    padding: 1px 0 1px 0;
+    border-radius: 2em;
+    text-align: center;
+    font-family: 'Open sans', sans-serif;
+    transition: all .2s ease;
+      h3{
+        font-size: 1.5em;
+        font-weight: 400;
+        color: #ecf0f1;
+      }
+      span{
+        font-size: 1em;
+        font-weight: 300;
+      }
+
+    }
+    .m-header:hover{
+      background-color: #74BA46;
+
+    }
+  }
+
+//footer
+footer {
+  display: block;
+  background-color: #b3b3b3;
+  width: 100%;
+  min-height: 30px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+  span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+    color: #1a1a1a; 
+  }
+
+}
+@media screen and (max-width: 540px){
+  footer{
+    padding-bottom: 10px;
   }
 }
