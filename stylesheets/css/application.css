@@ -27,7 +27,7 @@ body {
     height: 70px;
     margin: 165px auto 0 auto; }
     #header h1 img {
-      width: 100%;
+      max-width: 100%;
       margin-left: 10px; }
   #header .social {
     width: 180px;
@@ -80,6 +80,8 @@ body {
   .upcoming-meet .m-header span {
     font-size: 1em;
     font-weight: 300; }
+    .upcoming-meet .m-header span a {
+      text-decoration: none; }
 .upcoming-meet .m-header:hover {
   background-color: #74BA46; }
 

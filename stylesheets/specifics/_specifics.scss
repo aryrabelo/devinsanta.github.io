@@ -25,7 +25,7 @@ body{background-color: #ecf0f1}
     height: 70px;
     margin: 165px auto 0 auto;
     img {
-      width: 100%;
+      max-width: 100%;
       margin-left: 10px;
     }
   }
@@ -93,12 +93,14 @@ body{background-color: #ecf0f1}
       span{
         font-size: 1em;
         font-weight: 300;
+        a{
+          text-decoration: none;
+        }
       }
 
     }
     .m-header:hover{
       background-color: #74BA46;
-
     }
   }
 
