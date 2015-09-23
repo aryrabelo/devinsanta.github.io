@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,300);
-#header {
-  width: 960px; }
-
 body {
   background-color: #ecf0f1; }
+
+.container {
+  width: 70%;
+  display: block;
+  margin: 0 auto; }
 
 .main {
   width: 100%;
@@ -66,7 +68,7 @@ body {
 
 .upcoming-meet .m-header {
   background-color: #5aa02c;
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
   padding: 1px 0 1px 0;
   border-radius: 2em;
@@ -85,15 +87,80 @@ body {
 .upcoming-meet .m-header:hover {
   background-color: #74BA46; }
 
-footer {
+.upcoming-meet .talks {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b6b8b9;
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+  display: inline-block; }
+  .upcoming-meet .talks .calls {
+    width: 50%;
+    margin: 0;
+    display: inline-block;
+    float: left; }
+    .upcoming-meet .talks .calls ul li {
+      width: 100%;
+      display: block;
+      height: 70px;
+      border-bottom: 1px solid #b6b8b9; }
+      .upcoming-meet .talks .calls ul li img {
+        float: left;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%; }
+
+.upcoming-meet .talks .calls ul .info h2 {
+  margin-top: 10px;
+  margin-left: 65px;
+  font-size: 30px;
+  color: #5aa02c;
+  font-family: "Opens sans" sans-serif;
+  font-weight: 300; }
+.upcoming-meet .talks .calls ul .info span {
+  margin-left: 16px;
+  font-size: 16px;
+  font-family: "Opens sans" sans-serif; }
+
+.upcoming-meet .sidebar {
+  width: 48%;
+  border-left: 1px solid #b6b8b9;
+  margin-left: 10px;
+  float: left;
+  color: #b6b8b9;
+  font-size: 25px;
+  font-family: "Opens sans" sans-serif;
+  font-weight: 300;
+  text-align: justify; }
+.upcoming-meet p {
+  margin-left: 10px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #b6b8b9;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 22px; }
+.upcoming-meet .meetup {
+  display: block;
+  float: right;
+  width: 50%; }
+  .upcoming-meet .meetup h2 {
+    font-size: 28px;
+    color: #b6b8b9;
+    font-family: "Opens sans" sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px; }
+
+#footer {
+  clear: both;
   display: block;
   background-color: #b3b3b3;
   width: 100%;
   min-height: 30px;
   text-align: center;
-  margin-top: 30px;
   padding-top: 10px; }
-  footer span {
+  #footer span {
     font-family: 'Open Sans', sans-serif;
     font-size: .8em;
     color: #1a1a1a; }
