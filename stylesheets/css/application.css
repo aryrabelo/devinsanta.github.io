@@ -82,9 +82,13 @@ body {
   .upcoming-meet .m-header span {
     font-size: 1em;
     font-weight: 300; }
-    .upcoming-meet .m-header span a {
-      text-decoration: none; }
-.upcoming-meet .m-header:hover {
+  .upcoming-meet .m-header a {
+    color: #000;
+    text-decoration: none; }
+    .upcoming-meet .m-header a a:visited {
+      color: #00FF00; }
+
+.m-header:hover {
   background-color: #74BA46; }
 
 .upcoming-meet .talks {
@@ -142,7 +146,7 @@ body {
   border-bottom: 1px solid #b6b8b9;
   width: 75%;
   margin: 0 auto;
-  font-size: 22px; }
+  font-size: 18px; }
 .upcoming-meet .meetup {
   display: block;
   float: right;
@@ -154,6 +158,12 @@ body {
     font-weight: 300;
     text-align: center;
     margin-top: 20px; }
+  .upcoming-meet .meetup .icon-meet {
+    width: 130px;
+    margin: 0 auto; }
+    .upcoming-meet .meetup .icon-meet img {
+      margin-top: 5px;
+      margin-left: 35px; }
 
 #footer {
   clear: both;

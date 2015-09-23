@@ -81,8 +81,8 @@ body{background-color: #ecf0f1}
   margin: 25px 0 25px 0;
 }
 
-.upcoming-meet{
-  .m-header{
+.upcoming-meet {
+  .m-header {
     background-color: #5aa02c;
     width: 100%;
     margin: 0 auto;
@@ -91,24 +91,28 @@ body{background-color: #ecf0f1}
     text-align: center;
     font-family: 'Open sans', sans-serif;
     transition: all .2s ease;
-    h3{
+    h3 {
       font-size: 1.5em;
       font-weight: 400;
       color: #ecf0f1;
     }
-    span{
+    span {
       font-size: 1em;
       font-weight: 300;
-      a{
+      }
+      a {
+        color: #000;
         text-decoration: none;
+        a:visited {
+          color: #00FF00;
+        }
       }
     }
-
   }
-  .m-header:hover{
+
+  .m-header:hover {
     background-color: #74BA46;
   }
-}
 
 .upcoming-meet {
   .talks {
@@ -190,7 +194,7 @@ body{background-color: #ecf0f1}
     border-bottom: 1px solid $gray;
     width: 75%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .meetup {
@@ -204,6 +208,14 @@ body{background-color: #ecf0f1}
       font-weight: 300;
       text-align: center;
       margin-top: 20px;
+    }
+    .icon-meet {
+      width: 130px;
+      margin: 0 auto;
+      img {
+        margin-top: 5px;
+        margin-left: 35px;
+      }
     }
   }
 }
