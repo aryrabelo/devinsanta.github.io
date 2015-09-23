@@ -1,5 +1,11 @@
 body{background-color: #ecf0f1}
 
+.container {
+  width:70%;
+  display: block;
+  margin: 0 auto;
+}
+
 .main {
   width: 100%;
   min-width: 100%;
@@ -72,51 +78,161 @@ body{background-color: #ecf0f1}
   font-size: 2em;
   font-family: 'Open sans', sans-serif;
   font-weight: 300;
-  margin: 25px 0 25px 0; 
+  margin: 25px 0 25px 0;
 }
 
-.upcoming-meet{
-    .m-header{
+.upcoming-meet {
+  .m-header {
     background-color: #5aa02c;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     padding: 1px 0 1px 0;
     border-radius: 2em;
     text-align: center;
     font-family: 'Open sans', sans-serif;
     transition: all .2s ease;
-      h3{
-        font-size: 1.5em;
-        font-weight: 400;
-        color: #ecf0f1;
+    h3 {
+      font-size: 1.5em;
+      font-weight: 400;
+      color: #ecf0f1;
+    }
+    span {
+      font-size: 1em;
+      font-weight: 300;
       }
-      span{
-        font-size: 1em;
-        font-weight: 300;
-        a{
-          text-decoration: none;
+      a {
+        color: #000;
+        text-decoration: none;
+        a:visited {
+          color: #00FF00;
         }
       }
-
-    }
-    .m-header:hover{
-      background-color: #74BA46;
     }
   }
 
+  .m-header:hover {
+    background-color: #74BA46;
+  }
+
+.upcoming-meet {
+  .talks {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $gray;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    display: inline-block;
+    .calls {
+      width: 50%;
+      margin: 0;
+      display: inline-block;
+      float: left;
+      border-right: 1px solid $gray;
+      padding-right: 20px;
+      ul {
+        .noborder {
+          border: none !important;
+        }
+
+        li {
+        width: 100%;
+        display: block;
+        height: 70px;
+        border-bottom: 1px solid $gray;
+          img {
+          float: left;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.upcoming-meet {
+  .talks {
+    .calls {
+      ul {
+        .info {
+          h2 {
+            margin-top: 10px;
+            margin-left: 65px;
+            font-size: 30px;
+            color: $main-green;
+            font-family: $opensans;
+            font-weight: 300;
+          }
+
+          span {
+            margin-left: 16px;
+            font-size: 16px;
+            font-family: $opensans;
+          }
+        }
+      }
+    }
+  }
+}
+
+.upcoming-meet {
+  .sidebar {
+    width: 47%;
+    margin-left: 0px;
+    float: left;
+    color: $gray;
+    font-size: 25px;
+    font-family: $opensans;
+    font-weight: 300;
+    text-align: justify;
+  }
+  p {
+    margin-left: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid $gray;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  .meetup {
+    display: block;
+    float: right;
+    width: 47%;
+    h2 {
+      font-size: 28px;
+      color: $gray;
+      font-family: $opensans;
+      font-weight: 300;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .icon-meet {
+      width: 130px;
+      margin: 0 auto;
+      img {
+        margin-top: 5px;
+        margin-left: 35px;
+      }
+    }
+  }
+}
+
 //footer
-footer {
+#footer {
+  clear: both;
   display: block;
   background-color: #b3b3b3;
   width: 100%;
   min-height: 30px;
   text-align: center;
-  margin-top: 30px;
   padding-top: 10px;
   span{
     font-family: 'Open Sans', sans-serif;
     font-size: .8em;
-    color: #1a1a1a; 
+    color: #1a1a1a;
   }
 
 }
